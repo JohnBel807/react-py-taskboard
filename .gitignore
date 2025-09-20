@@ -1,0 +1,23 @@
+# Node / CRA
+react-front/node_modules/
+react-front/build/
+*.log
+
+# Python / Flask
+venv/
+__pycache__/
+*.pyc
+instance/*.db
+instance/*.sqlite
+
+# Env files
+.env
+*.env
+react-front/.env*
+backend/.env*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
