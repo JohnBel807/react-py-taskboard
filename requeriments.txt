@@ -1,0 +1,14 @@
+x|# Servidor web en Python
+Flask==2.3.3
+
+# Soporte para CORS (si decides habilitarlo)
+Flask-Cors==4.0.0
+
+# Variables de entorno (.env para ADMIN_TOKEN y config)
+python-dotenv==1.0.1
+
+# Base de datos SQLite (incluida en Python estándar, pero agrego utilidades)
+SQLAlchemy==2.0.23
+
+# Manejo seguro de archivos (para uploads de imágenes)
+Werkzeug==2.3.7
