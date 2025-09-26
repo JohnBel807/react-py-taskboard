@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import GreetForm from './GreetForm';
+import Pagina from './Pagina';
 
 function App() {
   const [msg, setMsg] = useState("");
@@ -16,7 +17,9 @@ function App() {
   })
       .catch((err) => console.error(err));
 }, []);
+
 return (
+   <>
     <div className="App">
       <header className="App-header">
         {loading ? "Loading..." : msg}
@@ -39,7 +42,8 @@ return (
         <GreetForm />
       </header>
     </div>
-    
+    <Pagina></Pagina>
+   </>
   );
 }
 
